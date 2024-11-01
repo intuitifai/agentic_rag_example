@@ -14,7 +14,7 @@ tools = [
 llm = ChatGroq(
     model="llama3-8b-8192",  # Ensure this model ID is correct
     temperature=0.7,
-    api_key="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"
+    api_key="YOUR_GROQ_API_HERE"
 )
 
 agent = initialize_agent(

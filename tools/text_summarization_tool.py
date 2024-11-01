@@ -1,6 +1,6 @@
 from groq import Groq
 
-groq_client = Groq(api_key="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")
+groq_client = Groq(api_key="YOUR_GROQ_API_HERE")
 
 def text_summarization_tool_function(text):
     prompt = f"Summarize the following text:\n\n{text}\n\nSummary"
